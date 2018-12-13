@@ -11,15 +11,20 @@ var connection = mysql.createConnection({
 
 });
 
-connection.connect(function (err) {
-    if (err) throw err;
-    // console.table(result);
-    // })
-    //start();
-});
+// connection.connect(function (err, result) {
+//     if (err) throw err;
+//     console.log(result);
+//     // })
+//     //start();
+
+// });
+
 
 //display items for sale w/ ids names & prices
-
+connection.query("SELECT * FROM products", function(err, res) {
+    if (err) throw err;
+    console.table(res);
+})
 //inquire product id
 
 //inquire amount of product
