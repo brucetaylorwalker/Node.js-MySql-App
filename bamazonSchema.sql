@@ -17,28 +17,28 @@ CREATE TABLE products(
 SELECT * FROM products;
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("Vintage Lego Truck", "toys/games", 5.00, 1);
+VALUES ("Vintage Lego Truck", "toys/games", 5.49, 1);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
 VALUES ("Truck crane", "heavy equipment", 21500.99, 1);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("Wheelchair elevator", "health/beauty", 1500.00, 1);
+VALUES ("Wheelchair elevator", "health/beauty", 1500.99, 5);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("2007 Liberty XL2", "aviation", 89000.00, 1);
+VALUES ("2007 Liberty XL2", "aviation", 89000.49, 1);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("Food truck", "business", 35000.00, 1);
+VALUES ("Food truck", "business", 35000.99, 4);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("Christmas doll", "toys/games", 50.00, 1);
+VALUES ("Christmas doll", "toys/games", 50.99, 45);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("Japenese tea cups", "household", 6.00, 1);
+VALUES ("Japenese tea cups", "household", 6.49, 12);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("Vintage German Erzgebirge", "collectibles", 45.00, 1);
+VALUES ("Vintage German Erzgebirge", "collectibles", 45.49, 1);
 
 INSERT INTO products(product_name, department_name, price, stock_quantity)
-VALUES ("Persian rug", "collectibles", 475.00, 1);
+VALUES ("Persian rug", "collectibles", 475.99, 25);
